@@ -1,6 +1,8 @@
 {
+  "name": "lambdalint-js",
+  "version": "0.0.0",
+  "license" : "Apache-2.0",
   "dependencies": {
-    "standard": "*",
     "tar": "*",
     "tmp": "*",
     "aws-sdk": "*",
