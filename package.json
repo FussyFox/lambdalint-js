@@ -2,13 +2,16 @@
   "name": "lambdalint-js",
   "version": "0.0.0",
   "license" : "Apache-2.0",
+  "repository" : {
+    "type" : "git",
+     "url" : "https://github.com/LambdaLint/lambdalint-js.git"
+  },
   "dependencies": {
     "tar": "*",
     "tmp": "*",
     "aws-sdk": "*",
     "jsonwebtoken": "*",
-    "github": "*",
+    "@octokit/rest": "*",
     "request": "*"
   }
 }
-
