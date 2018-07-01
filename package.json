@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "standard": "*",
+    "tar": "*",
+    "tmp": "*",
+    "aws-sdk": "*",
+    "jsonwebtoken": "*",
+    "github": "*",
+    "request": "*"
+  }
+}
+
