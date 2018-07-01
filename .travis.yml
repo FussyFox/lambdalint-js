@@ -1,0 +1,11 @@
+language: node_js
+deploy:
+  provider: npm
+  email: info@johanneshoppe.com
+  api_key:
+    secure: aTG9q4kUwQR5beJ9x7SwnRvYbDyp36NzzsevezhKf+QhyfMTO16SvweD6rQZhLoooZR1FOcMWY/27pLRbrLoHvnphJG75L0Mj1hW4hW7o3Ze5GlOTP/7XGq3iLvn8CULW0SPzIaxlR0aEynA7HH7ONkvtAEpY6uYCaIUNXV/pKxNhiJiWP3IOzGogCq8H4V9K9c4YEqUWaq12f1kLhT1uLdnmeyQf3YxYEezZ1BXqNnAl6U4U5nmuyrksl8H1pVkRyWvHRWmnWvfgiXxINWp+ykM5eVQG+4Zp3G/SxfJWxJr2Yc3V8jDiy9cox9OEe4pCnZEG/dePQd+iDYlrgY+GWj72wakj/Wllm8Pq7q6QNU1YQy+jcMOsag92Hd+CN7nWLfoXD1Cu4b9GaLwpe/ga5fCFhq0Rd+gDUpTl4z7gi17R1oW3MhjumyN6EFedJ9HX6scqWLWZc4iADssCYnbsKG/79W2vHeL6Jbk/HYhuHaiLHWxwydpeZzRZ6ujkcUt+oHqGnWqVFKMPdBfJ/cIJvho341mxwdCjikVk1aVBdOvJ4X1F2CuFAGX22RUK79suS46teV8scHOgUaFU+1hBNGhKFKnzxCy0qAq4l+O0UYDfMAsQfTB5iKJxdTlNwnMV//nICNmC5wWAvXLZQL7ii5kvAO0FOhpm0LDCOKiuNE=
+  on:
+    tags: true
+    repo: LambdaLint/lambdalint-js
+    branch: master
+
